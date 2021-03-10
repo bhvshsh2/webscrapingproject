@@ -54,7 +54,7 @@ def csv_to_json(csvFilePath, jsonFilePath):                         #creating js
         jsonf.write(jsonString)
           
 
-pages = [1,2,3,4,5]
+pages = [1]
 x=len(pages)
 for i in range(x):
     url = 'https://www.midsouthshooterssupply.com/dept/reloading/primers?currentpage={}'.format(pages[i])
