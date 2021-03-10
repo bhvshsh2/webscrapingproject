@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import urllib.error,urllib.parse,urllib.request
-import pandas
+import pandas as pd
 import csv
 import json
 
